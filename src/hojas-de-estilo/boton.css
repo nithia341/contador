@@ -1,0 +1,40 @@
+.button-container {
+    display: flex; /* Usa flexbox para el diseño */
+    flex-direction: column; /* Alinea los botones verticalmente */
+    align-items: center; /* Centra los botones horizontalmente */
+    justify-content: center; /* Centra los botones verticalmente */
+    height: 100vh; /* Hace que el contenedor tenga la altura completa de la ventana */
+}
+
+button{
+    width: 600px;
+    height: 80px;
+    font-size: 35px;
+    font-family: Roboto ,sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid rgba(216, 146, 223, 0.608);
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+   
+}
+button:hover{
+    background-color: rgba(231, 99, 229, 0.98);
+    
+}
+
+.boton-clic{
+    background-color: rgba(41, 181, 206, 0.997);
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-reiniciar {
+    background-color: rgba(119, 55, 180, 0.382);
+    align-items: center;
+    justify-content: center;
+}
+
